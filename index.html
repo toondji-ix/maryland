@@ -19,23 +19,33 @@
   <body>
     <div class="page-shell">
       <header class="topbar">
-        <div class="brand" aria-label="Maryland School home">
+        <a class="brand" href="index.html" aria-label="Maryland Group of Schools home">
           <div class="brand-mark">M</div>
           <div class="brand-copy">
             <span>Maryland</span>
-            <small>School</small>
+            <small>Group of Schools</small>
           </div>
-        </div>
+        </a>
 
         <nav class="main-nav" aria-label="Main navigation">
-          <a href="#">Home</a>
-          <a href="#">About us</a>
-          <a href="#">Our school</a>
-          <a href="#">Admissions</a>
-          <a href="#">Contact</a>
+          <a class="active" href="index.html" aria-current="page">Home</a>
+          <a href="about.html">About us</a>
+          <a href="schools.html">Our schools</a>
+          <a href="contact.html">Contact</a>
         </nav>
 
-        <button class="nav-button" type="button">Apply now</button>
+        <a class="nav-button" href="contact.html">
+          Enquire now <img class="arrow-icon" src="assets/arrow.svg" alt="" />
+        </a>
+        <details class="mobile-nav">
+          <summary aria-label="Open navigation menu">Menu</summary>
+          <nav aria-label="Mobile navigation">
+            <a href="index.html" aria-current="page">Home</a>
+            <a href="about.html">About us</a>
+            <a href="schools.html">Our schools</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </details>
       </header>
 
       <main>
@@ -54,8 +64,8 @@
                 impact.
               </p>
               <div class="hero-actions">
-                <a href="#" class="primary">Book a school tour</a>
-                <a href="#" class="secondary">Visit our campus</a>
+                <a href="contact.html#enquiry-form" class="primary">Book a school tour</a>
+                <a href="contact.html" class="secondary">Visit our campus</a>
               </div>
             </div>
 
@@ -185,53 +195,54 @@
         <section class="cta-banner">
           <div class="cta-inner">
             <h2>Come and see what makes us remarkable.</h2>
-            <a href="#">Apply now</a>
+            <a href="contact.html#enquiry-form">Apply now</a>
           </div>
         </section>
       </main>
 
       <footer class="site-footer">
         <div class="footer-top">
-          <div class="footer-brand">
+          <a class="footer-brand" href="index.html" aria-label="Maryland Group of Schools home">
             <div class="brand-mark small">M</div>
             <div class="brand-copy">
               <span>Maryland</span>
-              <small>School</small>
+              <small>Group of Schools</small>
             </div>
-          </div>
+          </a>
 
           <div class="footer-links">
             <div>
-              <h4>School</h4>
+              <h4>Explore</h4>
               <ul>
-                <li><a href="#">The school</a></li>
-                <li><a href="#">Our team</a></li>
-                <li><a href="#">Admissions</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="schools.html">Our schools</a></li>
+                <li><a href="contact.html">Contact</a></li>
               </ul>
             </div>
             <div>
-              <h4>Learn</h4>
+              <h4>Admissions</h4>
               <ul>
-                <li><a href="#">Curriculum</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">News</a></li>
+                <li><a href="contact.html">Book a tour</a></li>
+                <li><a href="contact.html">Make an enquiry</a></li>
+                <li><a href="contact.html">Download prospectus</a></li>
               </ul>
             </div>
             <div>
               <h4>Connect</h4>
               <ul>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Visit us</a></li>
-                <li><a href="#">FAQ</a></li>
+                <li><a href="https://instagram.com">Instagram</a></li>
+                <li><a href="https://linkedin.com">LinkedIn</a></li>
+                <li><a href="https://facebook.com">Facebook</a></li>
               </ul>
             </div>
           </div>
         </div>
 
         <div class="footer-meta">
-          <p>© 2025 Maryland School</p>
-          <p>Postal address</p>
-          <p>Admissions</p>
+          <p>© 2025 Maryland Group of Schools</p>
+          <p>Privacy · Safeguarding · Terms</p>
+          <p>Lagos, Nigeria</p>
         </div>
       </footer>
     </div>
